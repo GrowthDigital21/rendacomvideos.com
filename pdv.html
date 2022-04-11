@@ -439,7 +439,15 @@ font-weight: 300;
   src="https://www.facebook.com/tr?id=346498494111100&ev=PageView&noscript=1"
 /></noscript>
 <!-- End Meta Pixel Code -->
-  
+	
+  <script type="text/javascript">
+	  var reply_click = function()
+	  {
+		  fbq('track','AddToCart');
+	  }
+	  document.getElementByld('botao').onclick = reply_click;
+  </script>
+	
   <script>
 if(typeof(fbq)=='function'){
 	setTimeout(function(){
